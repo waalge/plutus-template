@@ -14,7 +14,7 @@ common common-all
     , aeson
     , base
     , bytestring
-    , cardano-crypto-class >= 2.1.2
+    , cardano-crypto-class
     , containers
     , data-default
     , plutus-ledger-api
