@@ -119,16 +119,16 @@
     "cardano-base": {
       "flake": false,
       "locked": {
-        "lastModified": 1684866999,
-        "narHash": "sha256-+devmwJnLdOtByGScx8DAtkgCTCpOSQbxeMYvrstNJ8=",
+        "lastModified": 1684908592,
+        "narHash": "sha256-tvLuB/u7IjLV7/BD63siDa28PdmcW4SHzDBxq9ZBqWk=",
         "owner": "input-output-hk",
         "repo": "cardano-base",
-        "rev": "292b6e91169ffd7ed04753c41a0fb05ec6adae92",
+        "rev": "a344b32d97b0d0e83b773069f6a20f7e5fa67478",
         "type": "github"
       },
       "original": {
         "owner": "input-output-hk",
-        "ref": "cardano-crypto-class-2.1.2.0",
+        "ref": "a344b32d97b0d0e83b773069f6a20f7e5fa67478",
         "repo": "cardano-base",
         "type": "github"
       }
@@ -1146,11 +1146,11 @@
     "plutus": {
       "flake": false,
       "locked": {
-        "lastModified": 1686139915,
-        "narHash": "sha256-sOYn/j4P9bLImJDORgvCgK5/Hk7GcXGpkXmnTvyEPGA=",
+        "lastModified": 1686253706,
+        "narHash": "sha256-K3G7qwtn7J+QJ8aD7mR9uos7aIpTH/PWVC1QWb0lSdQ=",
         "owner": "input-output-hk",
         "repo": "plutus",
-        "rev": "3eca6c9e571e19018132f8a14c44907b7c558d2e",
+        "rev": "b1fbf43f5a2677b8ad39e2208ca57395a807f3e7",
         "type": "github"
       },
       "original": {

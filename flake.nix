@@ -24,7 +24,7 @@
       flake = false;
     };
     cardano-base = {
-      url = "github:input-output-hk/cardano-base?ref=cardano-crypto-class-2.1.2.0";
+      url = "github:input-output-hk/cardano-base?ref=a344b32d97b0d0e83b773069f6a20f7e5fa67478";
       flake = false;
     };
     CHaP = {

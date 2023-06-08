@@ -1,5 +1,33 @@
-packages:
-  ./plutus-example
+
+source-repository-package
+    type: git
+    location: https://github.com/input-output-hk/plutus
+    tag: b1fbf43f5a2677b8ad39e2208ca57395a807f3e7
+    subdir:
+      plutus-core
+      plutus-ledger-api
+      plutus-tx
+      plutus-tx-plugin
+      prettyprinter-configurable
+      stubs/plutus-ghc-stub
+
+source-repository-package
+    type: git
+    location: https://github.com/input-output-hk/cardano-base
+    tag: a344b32d97b0d0e83b773069f6a20f7e5fa67478
+    subdir:
+      base-deriving-via
+      cardano-binary
+      cardano-binary/test
+      cardano-crypto-class
+      cardano-crypto-praos
+      cardano-crypto-tests
+      cardano-slotting
+      cardano-strict-containers
+      cardano-mempool
+      heapwords
+      measures
+      orphans-deriving-via
 
 repository cardano-haskell-packages
   url: https://input-output-hk.github.io/cardano-haskell-packages
@@ -19,20 +47,5 @@ index-state: 2023-06-08T00:00:00Z
 --   , hackage.haskell.org 2023-06-03T00:00:00Z
 --   , cardano-haskell-packages 2023-06-03T00:00:00Z
 
-source-repository-package
-    type: git
-    location: https://github.com/input-output-hk/plutus
-    tag: 3eca6c9e571e19018132f8a14c44907b7c558d2e
-    subdir:
-      plutus-core
-      plutus-ledger-api
-      plutus-tx
-      plutus-tx-plugin
-      prettyprinter-configurable
-      stubs/plutus-ghc-stub
--- source-repository-package
---     type: git
---     location: https://github.com/input-output-hk/cardano-base
---     tag: a344b32d97b0d0e83b773069f6a20f7e5fa67478
---     subdir:
---       cardano-crypto-class
+packages:
+  ./plutus-example
